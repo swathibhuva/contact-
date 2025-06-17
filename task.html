@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Contact Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <h2>My Website</h2>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Contact</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section class="form-section">
+      <h1>Contact Us</h1>
+      <form id="contactForm">
+        <label>Name:
+          <input type="text" id="name" required />
+        </label>
+
+        <label>Email:
+          <input type="email" id="email" required />
+        </label>
+
+        <label>Message:
+          <textarea id="message" required></textarea>
+        </label>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
